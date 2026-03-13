@@ -10,8 +10,6 @@ python generate_data.py          # generates loan_applications.csv
 jupyter notebook notebook.ipynb  # main analysis
 ```
 
-Or run as a script: `python notebook.py`
-
 ## Repo Structure
 
 ```
@@ -20,8 +18,7 @@ Or run as a script: `python notebook.py`
 ├── requirements.txt
 ├── generate_data.py            # dataset generation (from assignment)
 ├── loan_applications.csv       # 2,000 applications
-├── notebook.py                 # analysis (percent-format jupyter)
-├── notebook.ipynb              # same, as notebook
+├── notebook.ipynb              # main analysis notebook
 └── figures/                    # generated plots
 ```
 
